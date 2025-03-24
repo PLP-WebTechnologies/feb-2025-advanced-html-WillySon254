@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 Assignment</title>
+</head>
+<body>
+    <h1>Ordered Lists</h1>
+    <ol type="i">
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+        <li>Item four</li>
+        <li>Item five</li>
+    </ol>
+    <h1>External Image</h1>
+    <img src="https://www.pexels.com/photo/florence-street-view-with-duomo-in-background-31142167/" alt="Image of Florence"><br><br>
+    <h3>Listen our Audio below</h3>
+    <audio controls>
+        <source src="Minister Michael Mahendere - Salt of the Earth.mp3" type="audio/mpeg">
+    </audio>
+    <h3>Watch Introduction to html video down below</h3>
+    <video controls width="640" height="360">
+        <source src="Videp.mp4" type="video/mp4">
+
+    </video>
+    <h1>A Table </h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Wilson</td>
+                <td>Nairobi</td>
+                <td>071345678</td>
+                <td>wilson@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Broja</td>
+                <td>Kisii</td>
+                <td>0114567878</td>
+                <td>broja@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Joddy</td>
+                <td>Kisumu</td>
+                <td>0757880645</td>
+                <td>joddy@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Hosea</td>
+                <td>Kitale</td>
+                <td>0714567878</td>
+                <td>hosea@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Joshua</td>
+                <td>Kutus</td>
+                <td>011567878</td>
+                <td>joshua@gmail.com</td>
+            </tr>          
+        </tbody>
+    </table>
+    <h1>Registration Form</h1>
+    <form action="/register" method="post">
+        <p>Name</p>
+        <label for="name"></label>
+        <input type="text" name="name" id="name" required>
+        <br><br>
+        <p>Email</p>
+        <label for="email"></label>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+        <p>Password</p>
+        <label for="password"></label>
+        <input type="password" name="password" id="password" minlength="6" maxlength="10" required>
+        <br><br>
+        <p>Date of Birth</p>
+        <label for="date"></label>
+        <input type="date" name="date" id="date" required>
+        <br><br>
+        <p>Gender</p>
+        <label for="gender"></label>
+        <label>
+            <input type="radio" id="male" name="gender" value="male"> Male
+          </label><br>
+        
+          <label>
+            <input type="radio" id="female" name="gender" value="female"> Female
+          </label><br>
+        
+            <label>
+            <input type="radio" id="other" name="gender" value="other"> Other
+          </label><br>
+        <br><br>
+        <p>Interests</p>
+        <label for="gender"></label>
+        <label>
+            <input type="checkbox" id="male" name="gender" value="male">Coding
+          </label><br>
+        
+          <label>
+            <input type="checkbox" id="female" name="gender" value="female">Graphics Design
+          </label><br>
+        
+            <label>
+            <input type="checkbox" id="other" name="gender" value="other">Web Development
+
+        <p>Country</p>
+        <label for="country"></label>
+        <select name="--Select" id="Country">
+            <option value="Kenya">Kenya</option>
+            <option value="Kenya">Tanzania</option>
+            <option value="Kenya">Uganda</option>
+            <option value="Kenya">South Africa</option>
+            <option value="Kenya">Nigeria</option>
+
+        </select><br><br>
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
